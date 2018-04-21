@@ -23,10 +23,11 @@ public class Podatek extends JFrame implements ActionListener {
 
 	public Podatek() {
 			
-	
+	super();
 	setSize(500,220);
 	setTitle("Oblicz podatek");
 	setLayout(null);
+	setResizable(false);
 	
 	lDochod = new JLabel("Podaj swój dochód: ");
 	lDochod.setBounds(40, 40, 200, 20);
